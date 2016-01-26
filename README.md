@@ -13,6 +13,40 @@ data all at once and keeps it all in memory.
 *  PHP 5.3.0 or newer
 *  PHP must have Zip file support (see http://php.net/manual/en/zip.installation.php)
 
+### Usage on Cakephp Controller:
+
+	<?php
+		namespace App\Controller;
+
+		use App\Controller\AppController;
+		use elton182\spreadsheet\SpreadsheetReader;
+
+		class ExcelController extends AppController
+		{
+
+			
+			public function index(){
+			
+				if($this->request->is('post')){
+			
+					$arquivo = $this->request->data['uploadfile'][0]['tmp_name'];
+					$nome = $this->request->data['uploadfile'][0]['name'];
+
+					$Reader = new SpreadsheetReader($arquivo,$nome);
+				    foreach ($Reader as $Row)
+				    {
+				        print_r($Row);
+				    }
+
+				}
+
+
+			}
+		}
+	?>
+	
+
+
 ### Usage:
 
 All data is read from the file sequentially, with each row being returned as a numeric array.
