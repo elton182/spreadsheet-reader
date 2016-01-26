@@ -1,8 +1,19 @@
 {
-	"name": "spreadsheet",
-	"description": "Spreadsheet reader library for Excel, OpenOffice and structured text files",
-	"keywords": ["spreadsheet", "xls", "xlsx", "ods", "csv", "excel", "openoffice"],	
-	"license": ["MIT"],
+
+	"name": "elton182/spreadsheet",
+    "type": "library",
+    "description": "Spreadsheet reader library for Excel, OpenOffice and structured text files, compatible with cakephp3",
+    "keywords": ["spreadsheet", "xls", "xlsx", "ods", "csv", "excel", "openoffice"],
+    "homepage": "https://github.com/elton182/spreadsheet-reader",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elton Nicolau",
+            "email": "eltonantunes@hotmail.com",
+            "homepage": "eltonnicolau.wordpress.com",
+            "role": "Developer"
+        }
+    ],
 	"require": {
 		"php": ">= 5.3.0",
 		"ext-zip": "*"
