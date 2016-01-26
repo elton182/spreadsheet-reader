@@ -13,6 +13,8 @@
 	use DateTimeZone;
 	use XMLReader;
 	use SimpleXMLElement;
+
+		   
 	class SpreadsheetReader_XLSX implements Iterator, Countable
 	{
 		const CELL_TYPE_BOOL = 'b';
