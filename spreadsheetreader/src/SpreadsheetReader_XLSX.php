@@ -4,6 +4,10 @@
  *
  * @author Martins Pilsetnieks
  */
+
+	namespace elton182\spreadsheet;
+	use Iterator;
+	use Countable;
 	class SpreadsheetReader_XLSX implements Iterator, Countable
 	{
 		const CELL_TYPE_BOOL = 'b';

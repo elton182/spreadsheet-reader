@@ -4,6 +4,11 @@
  *
  * @author Martins Pilsetnieks
  */
+
+	namespace elton182\spreadsheet;
+	use Iterator;
+	use Countable;
+	
  	class SpreadsheetReader_XLS implements Iterator, Countable
 	{
 		/**

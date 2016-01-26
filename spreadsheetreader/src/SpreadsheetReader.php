@@ -5,6 +5,18 @@
  * @version 0.5.10
  * @author Martins Pilsetnieks
  */
+	namespace elton182\spreadsheet;
+
+
+	use SeekableIterator;
+	use Countable;
+	use Exception;
+	use ZipArchive;
+	use elton182\spreadsheet\SpreadsheetReader_XLS;
+	use elton182\spreadsheet\SpreadsheetReader_CSV;
+	use elton182\spreadsheet\SpreadsheetReader_ODS;
+	use elton182\spreadsheet\SpreadsheetReader_XLSX;
+
 	class SpreadsheetReader implements SeekableIterator, Countable
 	{
 		const TYPE_XLSX = 'XLSX';
