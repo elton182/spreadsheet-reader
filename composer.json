@@ -1,6 +1,6 @@
 {
 
-	"name": "elton182",
+	"name": "spreadsheet",
     "type": "library",
     "description": "Spreadsheet reader library for Excel, OpenOffice and structured text files, compatible with cakephp3",
     "keywords": ["spreadsheet", "xls", "xlsx", "ods", "csv", "excel", "openoffice"],
