@@ -1,6 +1,6 @@
 {
 
-	"name": "spreadsheet",
+	"name": "elton182",
     "type": "library",
     "description": "Spreadsheet reader library for Excel, OpenOffice and structured text files, compatible with cakephp3",
     "keywords": ["spreadsheet", "xls", "xlsx", "ods", "csv", "excel", "openoffice"],
@@ -20,7 +20,7 @@
 	},	
 	"autoload": {
 		"psr-4": {
-            "elton182\\spreadsheet\\": "/src"
+            "elton182\\": "/src"
         }
 
 	}
