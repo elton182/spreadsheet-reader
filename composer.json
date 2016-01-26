@@ -20,7 +20,7 @@
 	},	
 	"autoload": {
 		"psr-4": {
-            "elton182\\spreadsheet\\spreadsheet": "/src"
+            "elton182\\spreadsheet\\spreadsheet\\": "/src"
         }
 
 	}
